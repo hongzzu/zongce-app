@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>综合素质测评审批系统</title>
+<link rel="stylesheet" href="css/style.css?v=202609101707">
+</head>
+<body>
+
+<!-- ===== 登录页 ===== -->
+<div id="loginPage" class="login-wrap">
+  <div class="login-card">
+    <div class="login-logo">综</div>
+    <h1>综合素质测评审批系统</h1>
+    <p class="login-sub">综测申请 · 班长审核 · 年级认定 · 综测复核 · 全流程在线化</p>
+    <div class="form-item">
+      <label>账号</label>
+      <input id="loginUsername" type="text" placeholder="学号 / 工号" autocomplete="username">
+    </div>
+    <div class="form-item">
+      <label>密码</label>
+      <input id="loginPassword" type="password" placeholder="密码" autocomplete="current-password">
+    </div>
+    <div id="loginError" class="login-error"></div>
+    <button id="loginBtn" class="btn btn-primary btn-block">登 录</button>
+  </div>
+</div>
+
+<!-- ===== 主界面 ===== -->
+<div id="mainPage" class="layout" style="display:none">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="brand-badge">综</span>
+      <div><b>综测审批系统</b><small id="roleLabel"></small></div>
+    </div>
+    <nav id="menu" class="menu"></nav>
+    <div class="sidebar-user">
+      <div class="avatar" id="userAvatar">人</div>
+      <div class="sidebar-user-info">
+        <b id="userName"></b>
+        <small id="userClass"></small>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="menu-toggle" id="menuToggle" title="菜单">☰</button>
+      <h2 id="pageTitle">工作台</h2>
+      <div class="topbar-right">
+        <span class="badge" id="announceBadge" style="display:none">公示进行中</span>
+        <button class="btn btn-ghost btn-sm" id="secToggleBtn" title="安全设置（水印/截屏限制）" style="display:none">🔒 安全</button>
+      </div>
+    </header>
+    <div id="content" class="content"></div>
+  </main>
+</div>
+
+<!-- ===== 弹窗 ===== -->
+<div id="modalMask" class="modal-mask" style="display:none">
+  <div class="modal" id="modalBox"></div>
+</div>
+
+<!-- ===== 附件预览独立层（2026-09-09）：不覆盖下层弹窗（详情/审核），关闭预览后原弹窗保留 ===== -->
+<div id="previewMask" class="preview-mask" style="display:none">
+  <div class="preview-box" id="previewBox"></div>
+</div>
+
+<div id="toastWrap"></div>
+
+<script src="js/api.js?v=202609101707"></script>
+<script src="js/security.js?v=202609101707"></script>
+<script src="js/views.js?v=202609101707"></script>
+<script src="js/app.js?v=202609101707"></script>
+</body>
+</html>
