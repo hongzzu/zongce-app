@@ -1,0 +1,129 @@
+综合素质测评审批系统 源代码许可协议
+Source Code License for the Comprehensive Quality Evaluation System
+
+版本 1.0　生效日期：2026 年 10 月 17 日
+Version 1.0　Effective Date: October 17, 2026
+
+────────────────────────────────────────────────────────────
+
+版权所有 (c) 2026 本项目作者（下称"作者"）。保留所有权利。
+
+Copyright (c) 2026 The Author of this project ("the Author").
+All rights reserved.
+
+────────────────────────────────────────────────────────────
+
+一、许可范围
+
+在符合本协议全部条款的前提下，作者授予任何自然人一项免费的、
+非独占的、不可转让的、可撤销的许可，允许其：
+
+1. 查看、下载、复制本软件及其源代码；
+2. 在本地环境中安装、运行本软件；
+3. 为学习、教学、学术研究或个人技术实践之目的修改源代码；
+4. 在上述非商业目的范围内分享本软件的原始或修改后的副本。
+
+二、禁止商业使用
+
+未经作者事先书面授权，任何人不得将本软件（含源代码、修改版、
+衍生作品）用于任何商业目的，包括但不限于：
+
+1. 销售、出租、许可、转让本软件或其任何部分；
+2. 以本软件为基础提供付费服务、付费托管、软件即服务（SaaS）
+   或任何形式的收费部署；
+3. 将本软件或其代码集成进任何以营利为目的的产品、系统或项目；
+4. 在商业机构、企业或营利性组织的生产经营活动中部署使用；
+5. 以本软件为标的物进行融资、投标、估值或作为资产对外宣传。
+
+判断某项使用是否构成商业使用的标准，以是否直接或间接产生经济
+利益为准，而不以是否明确收费为准。
+
+三、附加义务
+
+1. 任何复制或分发行为，必须完整保留本协议文件及全部版权声明，
+   不得删除、遮蔽或篡改。
+2. 修改后的版本应在显著位置注明"基于原项目修改"，并说明修改
+   内容与日期，不得冒充原作者作品。
+3. 不得移除或规避本软件中的任何安全提示、免责声明与许可声明。
+4. 分发时不得附带任何真实的学生个人信息、身份信息、账号口令、
+   密钥或所在单位的内部数据。
+
+四、数据与合规责任
+
+本软件为工具性代码，不附带任何数据。使用者在部署与运行过程中：
+
+1. 应自行确保所处理的数据已经合法取得并取得必要授权；
+2. 应自行遵守所在国家或地区的个人信息保护、数据安全、网络安全
+   等相关法律法规及所在单位的管理规定；
+3. 因使用者违反上述规定所产生的一切法律责任，由使用者自行承担，
+   作者不承担任何连带责任。
+
+作者特别声明：本项目源代码为脱敏发布版本，其中的账号、姓名、学号、
+班级、材料等内容均为虚构示例，不含任何真实个人信息。
+
+五、免责声明
+
+本软件按"现状"提供，不附带任何形式的明示或默示担保，包括但不限于
+对适销性、特定用途适用性、准确性、不侵权的担保。
+
+作者不对以下情形承担任何责任：
+
+1. 因使用或无法使用本软件而导致的任何直接、间接、偶然、特殊或
+   后果性损失；
+2. 数据丢失、计算错误、业务中断、声誉损害或第三方索赔；
+3. 使用者将本软件应用于实际业务场景所产生的任何后果。
+
+本软件中的计分规则、评审流程与业务逻辑，仅作为技术实现示例，
+不构成任何形式的管理建议或合规意见。实际使用前，使用者应自行
+对照所在单位的正式实施细则进行核对与调整。
+
+六、许可终止
+
+使用者一旦违反本协议任何条款，本许可自违反行为发生之日起自动
+终止，无需作者另行通知。许可终止后，使用者应立即停止使用本软件，
+并销毁其持有的全部副本。
+
+七、其他
+
+1. 本协议未尽事宜，由作者与使用者另行协商。
+2. 本协议的任何条款被认定无效或不可执行，不影响其余条款的效力。
+3. 本协议的最终解释权归作者所有。
+
+如需获得商业使用授权，请联系作者另行协商。
+
+────────────────────────────────────────────────────────────
+
+ENGLISH SUMMARY
+
+This license is provided in Chinese as the authoritative version.
+The following English text is a summary for reference only.
+
+Permission is hereby granted, free of charge, to any natural person,
+to view, copy, run, modify and share this software and its source
+code, subject to the conditions below, solely for learning, teaching,
+academic research, or personal non-commercial technical practice.
+
+COMMERCIAL USE IS STRICTLY PROHIBITED. Without prior written
+permission from the Author, you may not sell, rent, license, sublicense,
+host for a fee, provide as a service, or integrate this software into
+any product, system, or activity intended for commercial advantage or
+monetary compensation.
+
+Any copy or redistribution must retain this license file and all
+copyright notices in full, and any modified version must be clearly
+marked as modified with a description of the changes.
+
+The Author provides this software "AS IS", without warranty of any kind,
+express or implied. In no event shall the Author be liable for any claim,
+damages, or other liability arising from the use of this software.
+
+You are solely responsible for ensuring that your use of this software,
+including any data processed with it, complies with all applicable laws,
+regulations, and institutional policies.
+
+This license terminates automatically upon any breach of its terms.
+
+────────────────────────────────────────────────────────────
+
+如需商业授权，请联系作者。
+For commercial licensing inquiries, please contact the Author.

@@ -1,0 +1,41 @@
+# 运行时数据（含真实业务数据，绝不入仓）
+data/
+uploads/
+export-jobs/
+out/
+
+# 依赖
+node_modules/
+
+# 环境变量与凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# 日志
+*.log
+logs/
+
+# 备份与临时产物
+*.bak
+*.bak-*
+*.orig
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# 大体积二进制与模型文件
+*.exe
+*.traineddata
+*.docx
+*.zip
+
+# 名单与中间数据（如存在）
+roster_payload.json
+roster_report.json
+teacher-check-dump.json
+cj.txt
